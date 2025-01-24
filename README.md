@@ -71,9 +71,8 @@ Note that before running the code, the database owner side should manually build
 
     | DB | Row_Num | Col_Num |  Attr1  |  Attr2  |  Attr3  |  Attr4  |  Attr5  |  Attr6  |
     |----|:--------|:--------|:-----|:-----------|:--------|:---------|---------|-----|
-    |  DB1  |  54846036  |  6  |  asin  |  reviewText  |  overall  |category | summary |  key  |
-    |  DB2  |  109693107  |  6  |  asin  |  reviewText  |  overall  |category | summary |  key  |
-    |  DB3  |  230139802  |  6  |  asin  |  reviewText  |  overall  |category | summary |  key  |
+    |    |    |    |    |    |    | |  |    |
+   
 
 You can also modify the table headers and styles, but you must update the corresponding lines in the code to adjust the database operation-related logic accordingly.  If the table settings above are followed, no changes to the database operations in the code are required.
 
