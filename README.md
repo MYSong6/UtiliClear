@@ -1,9 +1,4 @@
-<style>
-  table {
-    line-height:1.0;
-    font-size: 12px;
-  }
-</style>
+
 
 # Descriptions
 
