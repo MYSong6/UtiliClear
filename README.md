@@ -5,7 +5,7 @@
 The source code consists of three parts: dataset extraction and encoding, UtiliClear implementation, and robustness and utility testing.  The code for dataset extraction and encoding, as well as robustness and utility testing is written in Python, while the implementation of UtiliClear is written in C++. 
 The execution sequence and input-output relationships of the code files are demonstrated in the following figure. 
 
-![](assets/17376943603987.jpg)
+
 
 
 
