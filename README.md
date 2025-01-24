@@ -190,7 +190,7 @@ The code file “<u>Com_Verify_Recipient.cpp</u>” is used to verify commitment
     |  "outputDir2" |  The original messages (``m``) of the selected codewords                  |
 
 
-* The code file “<u>InsignificantBits_Verify1_Recipient.cpp</u>” is executed by the DO to extract the codewords ``cw`` selected by the recipient and decode these codewords to obtain messages (``m'``). It takes two folders, i.e., "inputDir1" and "inputDir2", as inputs, and output files to a folder, i.e., "outputDir" (Each column croresponds to one file in every folder).
+* The code file “<u>InsignificantBits_Verify2_DO.cpp</u>” is executed by the DO to extract the codewords ``cw`` selected by the recipient and decode these codewords to obtain messages (``m'``). It takes two folders, i.e., "inputDir1" and "inputDir2", as inputs, and output files to a folder, i.e., "outputDir" (Each column croresponds to one file in every folder).
 
     | Folder       | Content                                                                |
     |--------------|------------------------------------------------------------------------|
