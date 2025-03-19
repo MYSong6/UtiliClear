@@ -248,27 +248,27 @@ Manually import the decoded fingerprint dataset and the original dataset into th
 
 The code file “<u>Classifier_Training.py</u>” is uesd to training and evaluate the classifiers (i.e., KNN, LR, and SVM), where the 'file_path' storing the encoded dataset.
 
-You can manually execute the code files according to the roadmap above, or use the following execution commands. Before running the commands, please modify the source code files according to the aforementation roadmap, ensuring that parameters, paths and folders are correctly configured. Then compile all the code files of UtiliClear, generate executable (.exe) files, and store them together with the required dynamic link libraries (DLLs) in the same folder. Execute the following commands in sequence, one after another.
+You can manually execute the code files of UtiliClear according to the roadmap above, or use the following execution commands. Before running the commands, please modify the source code files according to the aforementation roadmap, ensuring that parameters, paths and folders are correctly configured. Then compile all the code files, generate executable (.exe) files, and store them together with the required dynamic link libraries (DLLs) in the same folder. Execute the following commands in sequence, one after another.
 
-cd "Your folder storing  all compiled exe files and corresponding dll files"
-cmd /c start Setup_DO.exe && start Setup_Recipient.exe
-cmd /c start DB_Grouping_DO.exe
-cmd /c start Com_SignBits_DO.exe
-xcopy "DO's folder storing commitment for significant bits\*" "Recipient's folder storing commitment for significant bits \" /s /e
-cmd /c start Lock1_Gen_CX_DO.exe
-xcopy "DO's folder storing CX for insignificant bits\*" "Recipient's folder storing CX for insignificant bits\" /s /e
-cmd /c start Lock2_Gen_CY_Recipient.exe
-xcopy "Recipient's folder storing CY for insignificant bits\*" "DO's folder storing CY for insignificant bits\" /s /e
-cmd /c start Lock3_Gen_Y_DO.exe
-cmd /c start Fingerprinting_DO.exe && start Fingerprinting_Recipient.exe
-xcopy "DO's path storing Fingerprinted database" "Recipient's path storing Fingerprinted database"
-cmd /c start Fingerprint_Extraction_DO.exe
-cmd /c start DB_Grouping_Recipient.exe
-cmd /c start InsignificantBits_Verify1_Recipient.exe
-xcopy "Recipient's folder storing Z for insignificant bits\*" "DO's folder storing Z for insignificant bits\" /s /e
-cmd /c start InsignificantBits_Verify2_DO.exe
-xcopy "DO's folder storing m' for insignificant bits\*" "Recipient's folder storing m' for insignificant bits\" /s /e
-cmd /c start InsignificantBits_Verify3_Recipient.exe
-cmd /c start Com_Verify_Recipient.exe
+* cd "Your folder storing  all compiled exe files and corresponding dll files"
+* cmd /c start Setup_DO.exe && start Setup_Recipient.exe
+* cmd /c start DB_Grouping_DO.exe
+* cmd /c start Com_SignBits_DO.exe
+* xcopy "DO's folder storing commitment for significant bits\*" "Recipient's folder storing commitment for significant bits \" /s /e
+* cmd /c start Lock1_Gen_CX_DO.exe
+* xcopy "DO's folder storing CX for insignificant bits\*" "Recipient's folder storing CX for insignificant bits\" /s /e
+* cmd /c start Lock2_Gen_CY_Recipient.exe
+* xcopy "Recipient's folder storing CY for insignificant bits\*" "DO's folder storing CY for insignificant bits\" /s /e
+* cmd /c start Lock3_Gen_Y_DO.exe
+* cmd /c start Fingerprinting_DO.exe && start Fingerprinting_Recipient.exe
+* xcopy "DO's path storing Fingerprinted database" "Recipient's path storing Fingerprinted database"
+* cmd /c start Fingerprint_Extraction_DO.exe
+* cmd /c start DB_Grouping_Recipient.exe
+* cmd /c start InsignificantBits_Verify1_Recipient.exe
+* xcopy "Recipient's folder storing Z for insignificant bits\*" "DO's folder storing Z for insignificant bits\" /s /e
+* cmd /c start InsignificantBits_Verify2_DO.exe
+* xcopy "DO's folder storing m' for insignificant bits\*" "Recipient's folder storing m' for insignificant bits\" /s /e
+* cmd /c start InsignificantBits_Verify3_Recipient.exe
+* cmd /c start Com_Verify_Recipient.exe
 
 
